@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>SDK</title>
+  </head>
+  <body>
+    <div>
+        <button id="connectMetamask">Connect Metamask</button>
+      </div>
+    <div id="createItem">
+      <h4>Mint NFT</h4>
+      <input
+        type="text"
+        id="txtCreateItemURI"
+        required
+        placeholder="Enter TokenURI"
+      />
+
+      <button id="btnCreateItem">Mint NFT</button>
+    </div>
+
+
+    <div id="sellItem">
+      <h4>Sell NFT</h4>
+      <input
+        type="number"
+        min="1"
+        step="1"
+        id="numSellItemTokenId"
+        placeholder="Enter TokenId"
+        required
+      />
+      <input
+        type="number"
+        min="1"
+        step="1"
+        id="numSellItemPrice"
+        placeholder="Enter Price"
+        required
+      />
+
+      <button id="btnSellItem">Sell NFT</button>
+    </div>
+
+
+    <div id="buyItem">
+      <h4>Buy NFT</h4>
+      <input
+        type="number"
+        min="1"
+        step="1"
+        id="numBuyItem"
+        placeholder="Enter SaleId"
+        required
+      />
+      <input
+        type="number"
+        min="1"
+        step="1"
+        id="numBuyItemAmmount"
+        placeholder="Enter Ammount"
+        required
+      />
+
+      <button id="btnBuyItem">Buy NFT</button>
+    </div>
+
+    <div id="RoyalityItem">
+        <h4>Set Royality</h4>
+        <input
+          type="string"
+          min="1"
+          step="1"
+          id="numroyalityItem"
+          placeholder="Enter Address"
+          required
+        />
+        <input
+          type="number"
+          min="1"
+          step="1"
+          id="numroyalityAmmount"
+          placeholder="Enter percentage"
+          required
+        />
+  
+        <button id="setNFTRoyality">Set Royalty</button>
+      </div>
+
+
+      
+     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

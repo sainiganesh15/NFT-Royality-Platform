@@ -1,0 +1,68 @@
+body {
+    background-color: #b5fd0038;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #connectMetamask {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #009EFF;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #createItem {
+    margin-top: 2rem;
+  }
+  
+  #sellItem {
+    margin-top: 2rem;
+  }
+  
+  #buyItem {
+    margin-top: 2rem;
+  }
+  
+  #RoyalityItem {
+    margin-top: 2rem;
+  }
+  
+  @media (min-width: 576px) {
+    #createItem,
+    #sellItem,
+    #buyItem,
+    #RoyalityItem {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

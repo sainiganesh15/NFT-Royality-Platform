@@ -1,6 +1,6 @@
 
 # NFT Royality Platform
-This project provides a simple SDK (Software Development Kit) for interacting with the NFT Membership platform. It allows users to connect their Metamask wallet, mint NFTs, sell NFTs, buy NFTs, and set royalties using the provided functions.
+This project provides a simple SDK (Software Development Kit) for interacting with the NFT Royality platform. It allows users to connect their Metamask wallet, mint NFTs, sell NFTs, buy NFTs, and set royalties using the provided functions.
 
 It is a platform that enables artists and creators to earn ongoing royalties from the secondary sales of their NFTs. This can involve tracking and automatically distributing royalties to the original creators whenever their NFTs are sold in the future.
 
